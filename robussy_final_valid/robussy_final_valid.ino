@@ -56,10 +56,10 @@ void setup() {
   analogWrite(enMotorL, maxSpeed); // 0-255
 
   //set default state of motors
-    digitalWrite(motorLF, LOW);
-    digitalWrite(motorLB, LOW);
-    digitalWrite(motorRF, LOW);
-    digitalWrite(motorRB, LOW);
+  digitalWrite(motorLF, LOW);
+  digitalWrite(motorLB, LOW);
+  digitalWrite(motorRF, LOW);
+  digitalWrite(motorRB, LOW);
 }
 
 void loop() {
