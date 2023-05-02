@@ -1,3 +1,0 @@
-# To DO
-
-if no objects in close enough range robot will stop due to sensor deadzone.
