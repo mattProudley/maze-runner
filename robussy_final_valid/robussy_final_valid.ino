@@ -1,4 +1,4 @@
-//ROBUSY (Robust Obstacle-Avoiding Bot Using Sensory Systems and Programming)
+//ROBUSSY (Robust Obstacle-Avoiding Bot Using Sensory Systems and Programming)
 //MAZE RUNNING ROBOT W/ LEFT WALl FOLLOWING ALGORITHM
 
 //IR SENSOR SETUP
