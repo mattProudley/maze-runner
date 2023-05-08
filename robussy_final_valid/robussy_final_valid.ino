@@ -55,8 +55,8 @@ void setup() {
   pinMode(enMotorL, OUTPUT);
 
   //set default speed of motors
-  analogWrite(enMotorR, maxSpeed); // 0-255
-  analogWrite(enMotorL, maxSpeed); // 0-255
+  analogWrite(enMotorR, maxSpeed);
+  analogWrite(enMotorL, maxSpeed);
 
   //set default state of motors
   digitalWrite(motorLF, LOW);
