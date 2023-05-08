@@ -26,6 +26,12 @@ int motorLB = 7; //left motor backward
 int enMotorR = 6; //right motor speed pin
 int motorRF = 5; //right motor forward
 int motorRB = 3; //right motor backward
+
+//ADJUSTABLE VARIABLES
+//sensor threshold
+int thresholdLower = 8; //threshold of sensor distance input before direction needs updating, lower value
+int thresholdMid = 10; //threshold of sensor distance input before direction needs updating, middle value
+int thresholdUpper = 14; //threshold of sensor distance input before direction needs updating, higher value
 //motor speed
 int maxSpeed = 230;//used for forawrd
 int rightCurveSpeed = 130;//used for curving right
@@ -35,9 +41,6 @@ int stop = 0;
 //OTHER VARIABLES
 char newDir = 'S'; //robot direction control (set to STOP by default)
 char currentDir; //stores current direction for comparison to new dir
-int thresholdLower = 8; //threshold of sensor distance input before direction needs updating, lower value
-int thresholdMid = 10; //threshold of sensor distance input before direction needs updating, middle value
-int thresholdUpper = 14; //threshold of sensor distance input before direction needs updating, higher value
 
 
 
