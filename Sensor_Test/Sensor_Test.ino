@@ -29,7 +29,7 @@ void setup() {
 void loop() {
   Serial.println("Checking Sensors");
   checkSensors();
-  delay(100); //delay to monitor serial, COMMENT OUT
+  delay(1000);
 
 }
 
