@@ -1,4 +1,5 @@
 //Software to test a maze running robot avoiding obstacles
+//Robot will change direction or stop
 
 //IR SENSOR SETUP
 // Include library
